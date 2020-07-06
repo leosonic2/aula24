@@ -8,7 +8,7 @@ import { studentRouter } from './routes/studentRouter.js';
 (async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://leosonic2:@Tencao24229@leandrocluster.1zl6y.mongodb.net/grades?retryWrites=true&w=majority',
+      'mongodb+srv://<usuario>:<senha>@leandrocluster.1zl6y.mongodb.net/grades?retryWrites=true&w=majority',
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
