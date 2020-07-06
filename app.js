@@ -3,7 +3,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 
 import { studentRouter } from './routes/studentRouter.js';
-require('dotenv').config();
+//require('dotenv').config();
 //Conectar ao MongoDB pelo mongoose
 (async () => {
   try {
